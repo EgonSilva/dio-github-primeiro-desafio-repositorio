@@ -1,2 +1,2 @@
-# dio-github-primeiro-desafio-repositorio
-Progresso Primeiro Git/GitHub
+# Primeiro-Repositorio-Desafio-Dio
+Progresso  Git/Github
