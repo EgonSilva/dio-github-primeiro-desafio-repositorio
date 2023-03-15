@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Meu html Dio.</title>
+</head>
+<body>
+    <h1 id="Inicio">Resumo deste Modulo sobre HTML</h1>
+   <ul>
+       <li><a href="#HTML basico">HTML basico</a></li>
+       <li><a href="#O que é HTML">O que é HTML</a></li>
+       <li><a href="#Imagens no HTML">Imagens no HTML</a></li>
+       <li><a href="#Marcando o Texto">Marcando o Texto</a></li> 
+       <li><a href="#Links">Links</a></li>
+       <li><a href="#Conclusão">Conclusão</a></li>
+
+   </ul>
+   
+   <hr>
+
+    <h1 id="HTML basico">HTML Basico</h1>
+    <small><a href="#Inicio">(Inicio)</a></small>
+    <p><strong><u>HTML  (Linguagem de Marcação de Hipertexto)</u></strong> é o código que você usa para estruturar uma página web e seu conteúdo.<br/>
+         Por exemplo, o conteúdo pode ser estruturado em parágrafos, em uma lista com marcadores ou usando imagens e tabelas.
+         Como o título sugere, este artigo fornecerá uma compreensão básica do <mark> HTML e suas funções</mark>.
+   </p>
+
+   <hr>
+
+    <h1 id="O que é HTML">O que é HTML</h1>
+    <small><a href="#Inicio">(Inicio)</a></small>
+
+    <p><i>HTML não é uma linguagem de programação</i>; é uma linguagem de <u>marcação</u>, usada para definir a estrutura do seu conteúdo. HTML consiste de uma série de elementos, 
+        que você usa para delimitar ou agrupar diferentes partes do conteúdo para que ele apareça ou atue de determinada maneira. 
+        As <u>tags</u> anexas podem transformar uma palavra ou imagem num hiperlink, pode colocar palavras em itálico, pode aumentar ou diminuir a fonte e assim por diante.
+    </p>
+    
+    <h3>Anatomia de um elemento HTML:<h3>
+
+    <blockquote><i><img width="300" src="https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/HTML_basics/gato-rabujento-pequeno.png" alt="Estrutura de uma tag, relacionada ao paragrafo"></i></blockquote>
+<p>
+   <h5>As principais partes de um elemento sao:</h5>
+    <ol>
+       <li>A <strong>tag de abertura</strong>: Consiste no nome do elemento (no caso, p), envolvido em parênteses angulares de abertura e fechamento.
+            Isso demonstra onde o elemento começa, ou onde seu efeito se inicia — nesse caso, onde é o começo do parágrafo.</li><br/>
+
+       <li>A <strong>tag de fechamento</strong>: Isso é a mesma coisa que a tag de abertura, exceto que inclui uma barra antes do nome do elemento. 
+           Isso demonstra onde o elemento acaba — nesse caso, onde é o fim do parágrafo. Esquecer de incluir uma tag de fechamento é um dos erros mais comuns de iniciantes e pode levar a resultados estranhos.</li><br/>
+
+       <li>O <strong>conteúdo</strong> Esse é o conteúdo do elemento, que nesse caso é apenas texto.</li><br/>
+
+       <li>O <strong>elemento</strong> A tag de abertura, a de fechamento, e o conteúdo formam o elemento.</li>
+   </ol>
+</p>
+
+<hr>
+       
+    <h1 id="Imagens no HTML">Imagens no HTML</h1>
+    <small><a href="#Inicio">(Inicio)</a></small>
+
+    <p>Vamos voltar nossa atenção para o elemento img<sup>*</sup> novamente:<br/>
+        <br/>
+
+        
+        Como dissemos antes, isso incorpora uma imagem na nossa página na posição que aparece. Isso é feito pelo atributo src (source), que contém o caminho para nosso arquivo de imagem.
+        
+        Incluímos também um <u>atributo alt (alternative)</u>. Neste atributo, você especifica um texto descritivo para usuários que não podem ver a imagem, possivelmente devido aos seguintes motivos:
+<ol>
+    <li>Eles são deficientes visuais. Usuários com deficiências visuais significativas costumam usar ferramentas chamadas leitores de tela para ler o texto alternativo para eles.</li><br/>
+
+    <li>Algo deu errado, fazendo com que a imagem não seja exibida. Por exemplo, tente alterar deliberadamente o caminho dentro do atributo src para torná-lo incorreto. Se você salvar e recarregar a página, você deve ver algo assim no lugar da imagem:</li>
+</ol>        
+        <blockquote> <u> <img width="250" src="data:image/jpeg;base64,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" alt="Logo cor laranja HTML Atualizacao 5"><br/></u> </blockquote>    
+   
+        As palavras-chave para o texto alternativo são "texto descritivo". O texto alternativo que você escreve deve fornecer ao leitor informações suficientes para ter uma boa ideia do que a imagem mostra. Neste exemplo, nosso texto "Minha imagem teste" não é bom para todos. Uma alternativa muito melhor para o nosso logotipo do HTML seria " A logo na cor laranja com as letras HTML com o numero 5 na parte debaixo ."
+
+        <hr>
+
+        <h1 id="Marcando o Texto">Marcando o Texto</h1>
+        <small><a href="#Inicio">(Inicio)</a></small>
+
+        <p>Essa seção abordará alguns dos elementos HTML essenciais que você usará para marcar o texto.
+            
+            <h3>Cabeçalhos:</h3>
+
+            Os elementos de cabeçalhos permitem especificar que certas partes do seu conteúdo são títulos ou subtítulos.
+             Da mesma forma que um livro tem o título principal e os capítulos possuem títulos e subtítulos, um documento HTML também tem.
+              HTML contém 6 níveis de título, h1 - h6, embora você normalmente só use de 3 a 4:
+                  <ol>
+                      <li>h1 - Meu título principal  - /h1</li>
+                      <li>h2 - Meu título de alto nível -  /h2</li>
+                      <li>h3 - Meu subtítulo -  /h3</li>
+                      <li> h4 - Meu segundo subtítulo -/h4</li>
+                  </ol>
+
+                  <h3>Paragrafos:</h3>
+
+                  <p>
+
+                    Como explicado acima, os elementos <p> são para conter parágrafos de texto; você os usará com frequência ao marcar um conteúdo de texto regular:
+
+                        p - Este é um parágrafo simples -/p <br/>
+                        
+                        Adicione seu texto de exemplo (você o obteve em Como será o seu site?) Em um ou alguns parágrafos, colocados diretamente abaixo do seu elemento.
+                  </p>    
+                   </p>
+
+                   <hr>
+
+                   <h1 id="Links">Links</h1>
+                   <small><a href="#Inicio">(Inicio)</a></small>
+
+<p>
+    Links são muito importantes — eles são o que faz da web ser de fato uma REDE! 
+    Para adicionar um link, precisamos usar um elemento simples  "a" é a forma abreviada de "âncora". 
+        Para transformar o texto do seu parágrafo em um link, siga estas etapas:
+</p>
+<ol>
+    <li>Escolha algum texto. Nós escolhemos o texto "Mozilla Manifesto".</li><br/>
+    <li>Envolva o texto em um elemento <a> , assim: <br/>
+        "a" - Mozilla Manifesto - "/a" </li><br/>
+    <li>Dê ao elemento "a" um atributo href, como mostrado abaixo:<br/>
+        "a" href=""Mozilla Manifesto"a"</li><br/>
+    <li>Preencha o valor desse atributo com o endereço da Web que você deseja vincular o link:<br/>
+        <a href="https://www.mozilla.org/pt-BR/about/manifesto/">Mozilla Manifesto</a></li><br/>
+        
+</ol>
+<p>
+    Você pode obter resultados inesperados se omitir a parte https:// ou o http://, o chamado protocolo, no começo do endereço web. 
+        Então depois de criar um link, clique nele para ter certeza de que ele está indo para onde você deseja.
+</p>
+
+<hr>
+
+<h1 id="Conclusão">Conclusão</h1>
+<small><a href="#Inicio">(Inicio)</a></small>
+<p>
+    Se você seguiu todas as instruções neste artigo, você deve terminar com uma página que chamamos de rascunho<sup>esqueleto</sup>!<br/>
+    Aqui, nós só arranhamos na superfície do HTML. Para descobrir mais, vá a pagina 
+    <button><a href="https://developer.mozilla.org/pt-BR/docs/Learn/HTML">Estruturando a web com HTML!</a></button>
+</p>   
+
+
+</body>
+
+</html>
